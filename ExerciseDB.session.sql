@@ -7,6 +7,17 @@
 /*
 
 
+SELECT starttime , name FROM
+(SELECT * FROM cd.bookings
+INNER JOIN cd.facilities 
+ON cd.facilities.facid = cd.bookings.facid
+
+WHERE starttime >= '2012-09-21' 
+AND starttime < '2012-09-22'
+AND name ILIKE '%Tennis Court%') As sq
+
+
+
 SELECT * FROM 
 
 (SELECT facid , SUM(slots) as total FROM cd.bookings
