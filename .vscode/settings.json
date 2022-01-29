@@ -19,6 +19,16 @@
             "database": "HomeLibrary",
             "username": "admin",
             "password": "admin"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "ExerciseDB",
+            "database": "exerciseDB",
+            "username": "admin",
+            "password": "admin"
         }
     ]
 }
