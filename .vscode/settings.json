@@ -29,6 +29,16 @@
             "database": "exerciseDB",
             "username": "admin",
             "password": "admin"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "psql_db",
+            "database": "psql_db",
+            "username": "admin",
+            "password": "admin"
         }
     ]
 }
