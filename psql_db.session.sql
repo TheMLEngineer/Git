@@ -1,5 +1,35 @@
 
 
+
+
+INSERT INTO job(job_name)
+VALUES
+('Data Science Consultant')
+
+SELECT * FROM job
+
+
+
+
+
+/*
+
+
+
+
+
+INSERT INTO account(username , password , email , created_on)
+VALUES
+('Karthik' , 'password' , 'karthik@mail.com' , CURRENT_TIMESTAMP)
+
+SELECT * FROM account;
+
+
+
+
+
+
+
 CREATE TABLE account(
     user_id SERIAL PRIMARY KEY ,
     username VARCHAR(50) UNIQUE NOT NULL ,
@@ -25,7 +55,7 @@ CREATE TABLE account_job(
 )
 
 
-
+*/
 
 
 
