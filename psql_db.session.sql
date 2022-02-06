@@ -4,7 +4,20 @@
 
 
 
+
+
+
+
 /*
+
+
+DELETE FROM job
+WHERE job_name = 'Cowboy'
+RETURNING job_id , job_name
+
+INSERT INTO job(job_name)
+VALUES
+('Cowboy')
 
 
 
