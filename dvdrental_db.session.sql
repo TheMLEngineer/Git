@@ -1,5 +1,12 @@
 
 
+SELECT * FROM rental
+
+
+SELECT '5'::INTEGER
+
+
+
 SELECT 
 
 SUM(
