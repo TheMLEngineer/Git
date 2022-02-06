@@ -39,6 +39,16 @@
             "database": "psql_db",
             "username": "admin",
             "password": "admin"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "School DB",
+            "database": "School",
+            "username": "admin",
+            "password": "admin"
         }
     ],
     "python.testing.unittestArgs": [
