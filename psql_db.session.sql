@@ -1,13 +1,43 @@
 
 
+CREATE TABLE employees(
+    emp_id SERIAL PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    birthdate DATE CHECK(birthdate > '1900-01-01'),
+    hire_date DATE CHECK(hire_date > birthdate),
+    salary INTEGER CHECK(salary > 0)
+)
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+ALTER TABLE new_info
+DROP COLUMN people
+
+ALTER TABLE new_info
+ALTER COLUMN people DROP NOT NULL
+
+
+ALTER TABLE new_info
+RENAME COLUMN person to people
+
 ALTER TABLE information
 RENAME TO new_info
 
 
 SELECT * FROM new_info
 
-
-/*
 
 
 CREATE TABLE information(
